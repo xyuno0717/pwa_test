@@ -55,14 +55,10 @@
     <a href="p.html">p.html</a>
     <footer class="footer">footer</footer>
     <script>
-        // var goFS = document.getElementById("goFS");
-        // goFS.addEventListener("click", function() {
-            
-        // }, false);
-
-        window.onload = function() {
+        var goFS = document.getElementById("goFS");
+        goFS.addEventListener("load", function() {
             document.body.requestFullscreen();
-        };
+        }, false);
     </script>
     </body>
 </html>
